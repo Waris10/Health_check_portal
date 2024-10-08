@@ -1,3 +1,51 @@
+# Health Check Portal
+
+### Description
+The **Health Check Portal** is a secure, internal-use platform built for company staff to monitor and manage both frontend and backend services. It includes advanced role-based access control, allowing administrators to oversee services, manage programming languages, and invite new users via an invitation system. The portal ensures that only invited staff can access the system, with regular users having limited view-only privileges.
+
+## Features
+- **Service Management**: Admin users can create, manage, and categorize services as either frontend or backend.
+- **Language Type Management**: Admins can define and manage the programming languages used for services.
+- **Invitation-Based Access**: Only admin-invited users can join the platform, ensuring security.
+- **Pending Invites**: Admins can track pending invites and approve users once they accept the invitation.
+- **Role-Based Permissions**: Admin users have full control, while regular users can only view the status of services.
+
+
+## Technologies Used
+- **Backend**: Laravel 10.x
+- **Frontend**: Blade Templates, tailwindcss 
+- **Database**: MySQL
+- **Languages**: PHP, JavaScript
+
+---
+
+## Screenshots
+
+1. **Dashboard Overview**  
+   ![image](https://github.com/user-attachments/assets/49d7ee4b-983c-4919-9b76-da7fad6f9a52)
+
+
+2. **Service Management Panel**  
+   ![image](https://github.com/user-attachments/assets/b0715b46-1ca7-4b3d-971f-c1573be064a8)
+
+
+3. **Invites Management**  
+   ![image](https://github.com/user-attachments/assets/ad00cecd-0ecf-4ea7-8fda-65e448fa8e51)
+
+
+## Roles and Permissions
+
+1. **Admin Users**:
+   - Create, edit, and delete services.
+   - Manage service types and programming languages.
+   - View and manage pending user invites.
+   - Invite new users.
+
+2. **Regular Users**:
+   - View active and inactive services.
+   - Cannot create or manage services.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,6 +112,5 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# Status-Checker-App
 
-# Health_check_portal
+
