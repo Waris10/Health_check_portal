@@ -8,6 +8,7 @@ The **Health Check Portal** is a secure, internal-use platform built for company
 - **Language Type Management**: Admins can define and manage the programming languages used for services.
 - **Invitation-Based Access**: Only admin-invited users can join the platform, ensuring security.
 - **Pending Invites**: Admins can track pending invites and approve users once they accept the invitation.
+- **Scheduled API endpoint check: The services endpoints are checked at regular time intervals and can be refreshed for immediate check.
 - **Role-Based Permissions**: Admin users have full control, while regular users can only view the status of services.
 
 
